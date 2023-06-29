@@ -1,3 +1,137 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --logo-font-family: "Raleway", sans-serif;
+  --heading-color: #212121;
+  --hero-head-color: #fff;
+  --nav-links-color: #212121;
+  --nav-contacts-color: #757575;
+  --logo-color: #000000;
+  --footer-logo-color: #fff;
+  --logo-web-color: #2196f3;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--font-family);
+}
+
+header > .logo {
+  color: var(--logo-color);
+  font-size: 26px;
+  font-family: var(--logo-font-family);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.footer-logo {
+  color: var(--footer-logo-color);
+  font-size: 26px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.logo-web {
+  color: var(--logo-web-color);
+}
+
+a:hover,
+a:focus {
+  color: #2196f3;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-links {
+  color: var(--nav-links-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.nav-contacts {
+  color: var(--nav-contacts-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.42px;
+}
+
+.footer-adress {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.42px;
+}
+
+.footer-section {
+  background-color: #2f303a;
+}
+
+.hero-section {
+  background-color: #2f303a;
+}
+
+.hero-heading {
+  color: #fff;
+  text-align: center;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+}
+
+.article-heading {
+  color: var(--heading-color);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
+
+.text-article {
+  color: #757575;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+
+.section-heading {
+  color: var(--heading-color);
+  text-align: center;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
 }
