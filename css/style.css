@@ -39,11 +39,6 @@ header > .logo {
   color: var(--logo-web-color);
 }
 
-a:hover,
-a:focus {
-  color: #2196f3;
-}
-
 a {
   text-decoration: none;
 }
@@ -52,7 +47,18 @@ ul {
   list-style: none;
 }
 
-.nav-links {
+.nav-links:hover,
+.nav-links:focus,
+.nav-contacts:hover,
+.nav-contacts:focus,
+.footer-contacts:hover,
+.footer-contacts:focus,
+.footer-adress:hover,
+.footer-adress:focus {
+  color: #2196f3;
+}
+
+nav > .nav-links {
   color: var(--nav-links-color);
   font-size: 14px;
   font-style: normal;
@@ -61,7 +67,7 @@ ul {
   letter-spacing: 0.28px;
 }
 
-.nav-contacts {
+nav > .nav-contacts {
   color: var(--nav-contacts-color);
   font-size: 14px;
   font-style: normal;
@@ -70,7 +76,7 @@ ul {
   letter-spacing: 0.28px;
 }
 
-.footer-contacts {
+footer > .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-style: normal;
@@ -79,7 +85,7 @@ ul {
   letter-spacing: 0.42px;
 }
 
-.footer-adress {
+footer > .footer-adress {
   color: #fff;
   font-size: 14px;
   font-style: normal;
@@ -134,4 +140,14 @@ ul {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
+}
+
+.footer-adress {
+  color: #fff;
+  font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.42px;
 }
