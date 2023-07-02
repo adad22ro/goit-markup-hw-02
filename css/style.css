@@ -52,13 +52,11 @@ ul {
 .nav-contacts:hover,
 .nav-contacts:focus,
 .footer-contacts:hover,
-.footer-contacts:focus,
-.footer-adress:hover,
-.footer-adress:focus {
+.footer-contacts:focus {
   color: #2196f3;
 }
 
-nav > .nav-links {
+.nav-links {
   color: var(--nav-links-color);
   font-size: 14px;
   font-style: normal;
@@ -67,7 +65,7 @@ nav > .nav-links {
   letter-spacing: 0.28px;
 }
 
-nav > .nav-contacts {
+.nav-contacts {
   color: var(--nav-contacts-color);
   font-size: 14px;
   font-style: normal;
@@ -76,7 +74,7 @@ nav > .nav-contacts {
   letter-spacing: 0.28px;
 }
 
-footer > .footer-contacts {
+.footer-contacts {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-style: normal;
@@ -85,7 +83,7 @@ footer > .footer-contacts {
   letter-spacing: 0.42px;
 }
 
-footer > .footer-adress {
+.footer-adress {
   color: #fff;
   font-size: 14px;
   font-style: normal;
